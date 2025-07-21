@@ -111,7 +111,6 @@
 /*Collection Section*/
 .collection{
     max-width: 1062px;
-    max-height: 1662px;
     margin: 130px auto;
 }
 .collection h3{
@@ -173,8 +172,7 @@
 }
 
 .featured-img{
-    max-width: 404px;
-    max-height: 270px;
+    max-width: 100%;
     border-radius: 7px;
 }
 
@@ -199,7 +197,7 @@
 footer{
     background-color: #0A0826;
     max-height: 600px;
-    max-width: 100%;
+    max-width: 1440px;
 }
 footer h1{
     font-size: 1.5rem;
@@ -260,23 +258,36 @@ footer div i{
        height: 28px; 
     }
 
-        .featured {
+    .featured {
         flex-direction: column-reverse;
         align-items: center;
         max-width: 100%;
         width: 100%;
         gap: 24px;
-        margin: 40px auto;
+        margin-top: 400px;
+        padding: auto;
     }
-    .featured-img {
-        max-width: 100%;
-        height: auto;
-    }
+    /* .featured-img {
+        max-width: 70%;
+        text-align: center;
+        padding: 5px;
+        
+    } */
+     .featured-img{
+       max-width:350px;
+    
+     }
     .featured-text {
         text-align: center;
         align-items: center;
     }
-
+    footer{
+      max-width: 1440px;
+      max-height: 100%;
+    }
+    .seemore{
+        text-align: center;
+    }
 
 }
 
@@ -313,14 +324,16 @@ footer div i{
         height: 100%;
         width:100%;
     }
-        .featured {
+    .featured {
         flex-direction: column-reverse;
         align-items: center;
         max-width: 100%;
         width: 100%;
         gap: 24px;
-        margin: 40px auto;
+        margin-top: 400px;
+        padding: auto;
     }
+
     .featured-img {
         max-width: 100%;
         height: auto;
